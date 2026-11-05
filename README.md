@@ -77,6 +77,17 @@ BioFlow/
 
 ## 3. 环境与部署
 
+### 安全复现入口（Linux 优先）
+
+请从全新克隆开始，按 [复现说明](docs/REPRODUCIBILITY.md) 准备隔离环境，
+再运行 `python repro/quickstart.py check`、`init`、`fixtures` 与
+`start --isolated-development`。默认仅启动回环地址的网关/分析 API；AI 自动修复、
+自动任务执行关闭，不准备 MAG、模型或参考数据库，也不迁移旧账号。
+合成样例只验证软件，不具生物学意义。完整公开 WGS 样本 SRR9224248 约 1.09 GB，
+通过 `python repro/public_data.py plan` 查看离线计划；下载须显式 `--allow-network`，
+完成后单独 `verify`。工具/数据库的来源与版本缺口见 `repro/resources.json`。
+这些检查不代表全生信流程或论文数值结果已复现；缺失资源不得视为通过。
+
 ### 基础环境
 
 - 正式生信计算建议使用 Linux；Python 使用与各模块依赖兼容的版本，原服务器分析验证环境为 Python 3.10。

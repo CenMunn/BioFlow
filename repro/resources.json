@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "scope": "Resource preparation guide, NOT a validated exact environment or database lock. Nothing is downloaded by quickstart.",
+  "python": {"preferred": "3.10 on Linux x86_64", "requirements": ["requirements.txt", "BioLLM_RawDataAnalysis/backend/requirements.txt"], "note": "Analysis pins include FastAPI 0.135.3, uvicorn 0.44.0, numpy 1.26.4, matplotlib 3.10.9; root requirements are ranges. Record pip freeze after installation; availability is not guaranteed."},
+  "software": [
+    {"name": "Nextflow and Java", "purpose": "workflow execution", "version": "not pinned by this reproduction package; record nextflow -version and java -version", "source": "https://www.nextflow.io/docs/latest/install.html"},
+    {"name": "FastQC", "purpose": "raw read quality reports", "version": "not pinned in repository", "source": "https://www.bioinformatics.babraham.ac.uk/projects/fastqc/"},
+    {"name": "fastp", "purpose": "paired-read QC and filtering", "version": "not pinned in repository", "source": "https://github.com/OpenGene/fastp"},
+    {"name": "Bowtie 2", "purpose": "host-reference depletion", "version": "not pinned in repository; index must match tool/reference build", "source": "https://bowtie-bio.sourceforge.net/bowtie2/index.shtml"},
+    {"name": "Kraken2", "purpose": "read taxonomy", "version": "2.17.1 appears in registry example only, not a verified lock", "source": "https://github.com/DerrickWood/kraken2"},
+    {"name": "Bracken", "purpose": "taxonomy abundance estimation", "version": "3.0.1 appears in registry example only; match Kraken database and read length", "source": "https://github.com/jenniferlu717/Bracken"},
+    {"name": "HUMAnN", "purpose": "functional potential, not expression or activity", "version": "3.9 appears in registry example only", "source": "https://github.com/biobakery/humann"},
+    {"name": "MetaPhlAn", "purpose": "HUMAnN classifier", "version": "4.1.1 appears in registry example only", "source": "https://github.com/biobakery/MetaPhlAn"},
+    {"name": "metaWRAP", "purpose": "optional MAG workflow; OFF/unavailable in light mode", "version": "not pinned as a reproducible environment", "source": "https://github.com/bxlab/metaWRAP"},
+    {"name": "Ollama", "purpose": "optional local AI repair; OFF in light mode", "version": "qwen3:14b is a configured model tag, not immutable weights", "source": "https://github.com/ollama/ollama", "model_source": "https://ollama.com/library/qwen3:14b"}
+  ],
+  "databases": [
+    {"name": "host genome + Bowtie2 index", "purpose": "host read removal", "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/", "requirements": "Choose documented host assembly accession/release; build compatible index; record checksums and command. No assembly is selected here."},
+    {"name": "Kraken2 + Bracken database", "purpose": "taxonomy_reads registry profile", "source": "https://github.com/DerrickWood/kraken2/blob/master/docs/MANUAL.markdown", "requirements": "Record source sequences, taxonomy date, release, compatible tools, index inventory hash, Bracken read-length distribution files. No database distributed."},
+    {"name": "ChocoPhlAn / UniRef / utility mappings", "purpose": "function_reads registry profile", "source": "https://github.com/biobakery/humann", "requirements": "Match HUMAnN release, UniRef90 versus UniRef50 and mapping level. Registry example v201901b mappings are not a promise of availability."},
+    {"name": "MetaPhlAn marker database", "purpose": "HUMAnN classification", "source": "https://github.com/biobakery/MetaPhlAn", "requirements": "Select exact marker release/index compatible with MetaPhlAn and HUMAnN, record all index checksums."},
+    {"name": "GTDB / MAG functional resources", "purpose": "optional mag_annotation", "source": "https://gtdb.ecogenomic.org/", "requirements": "Prepare compatible classification and functional databases, tool environment and sufficient RAM/disk before enabling MAG."}
+  ],
+  "registry_example": "BioLLM_RawDataAnalysis/workflow/assets/database-registry.example.json",
+  "warning": "Example paths and zero SHA256 values are placeholders, not usable resources. Check upstream licenses, access terms and redistribution rights independently. Exact older releases may be unavailable. No full biological, paper-result or numerical equivalence is claimed."
+}

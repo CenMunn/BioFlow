@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "accession": "SRR9224248",
+  "study": "PRJNA544527",
+  "sample": "SAMN11950175",
+  "strategy": "WGS",
+  "layout": "PAIRED",
+  "source": "https://www.ebi.ac.uk/ena/browser/view/SRR9224248",
+  "provenance": "ENA compressed byte sizes and MD5 recorded 2026-10-09; SHA256 independently calculated from full public files. Verify locally before use.",
+  "limitations": "One public human gut metagenome, not a disease cohort. No clinical or case/control inference.",
+  "files": [
+    {"name": "SRR9224248_1.fastq.gz", "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR922/008/SRR9224248/SRR9224248_1.fastq.gz", "bytes": 523271297, "md5": "55bb4c13527f8694d69ca0e2d2120314", "sha256": "29741b8964e0f30ac4dcde1533a60a27afe57c326a47cc32ab3f5f6a2c5e3503"},
+    {"name": "SRR9224248_2.fastq.gz", "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR922/008/SRR9224248/SRR9224248_2.fastq.gz", "bytes": 567281975, "md5": "84d827a8f97f09a8552c6631eea895c2", "sha256": "0a8835a67feab17d0d9ac6f9b455d290310846fc8e9f97ed2ffed29cb59dba36"}
+  ]
+}
