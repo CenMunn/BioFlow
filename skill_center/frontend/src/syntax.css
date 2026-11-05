@@ -1,0 +1,36 @@
+.hljs-comment,
+.hljs-quote {
+  color: #8e9b87;
+}
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal {
+  color: #875590;
+}
+.hljs-string,
+.hljs-regexp,
+.hljs-addition {
+  color: #577a3a;
+}
+.hljs-number,
+.hljs-symbol,
+.hljs-bullet {
+  color: #b07c3c;
+}
+.hljs-title,
+.hljs-section {
+  color: #46707c;
+}
+.hljs-deletion {
+  color: #aa6650;
+}
+.hljs-attr,
+.hljs-attribute {
+  color: #7e6a40;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: 700;
+}

@@ -1,0 +1,1022 @@
+{
+  "date": "2026-10-14",
+  "catalog": {
+    "items": [
+      {
+        "id": "writing",
+        "name": "文献撰写",
+        "description": "检索与综述、论文写作、引用核验、审稿及方法描述",
+        "count": 54
+      },
+      {
+        "id": "analysis",
+        "name": "数据分析与生图",
+        "description": "生信分析、数据图表、科研示意图及配图提示词",
+        "count": 11
+      }
+    ],
+    "total": 74
+  },
+  "repositories": [
+    {
+      "repository": "Yuan1z0825/nature-skills",
+      "commit_sha": "19be8d45e0d5233aa44be6d4572e655b9914ff54",
+      "entries": [
+        {
+          "entry_path": "skills/nature-academic-search/SKILL.md",
+          "upstream_entry_path": "skills/nature-academic-search/SKILL.md",
+          "skill_name": "nature-academic-search",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "imported",
+          "skill_id": "e824f7904d0f46eabab65a68bfb0bb14",
+          "revision_id": "ffab16cb9f91401fa3e29d559a7a32d3"
+        },
+        {
+          "entry_path": "skills/nature-citation/SKILL.md",
+          "upstream_entry_path": "skills/nature-citation/SKILL.md",
+          "skill_name": "nature-citation",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "引用管理与核验",
+          "status": "imported",
+          "skill_id": "bb8694bc6d1a406caa91287f7a364d52",
+          "revision_id": "39e3d78887e64c7c887ba98e51048548"
+        },
+        {
+          "entry_path": "skills/nature-data/SKILL.md",
+          "upstream_entry_path": "skills/nature-data/SKILL.md",
+          "skill_name": "nature-data",
+          "applicable_modules": [
+            "analysis"
+          ],
+          "category": "数据与统计",
+          "status": "imported",
+          "skill_id": "6226dad1c2794b6fb5d14e32bfc3b75f",
+          "revision_id": "89af810d18f14441a480b03e5b2eb38b"
+        },
+        {
+          "entry_path": "skills/nature-downloader/SKILL.md",
+          "upstream_entry_path": "skills/nature-downloader/SKILL.md",
+          "skill_name": "nature-downloader",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "imported",
+          "skill_id": "db8088c0e6284401ae588ca76dc7abf8",
+          "revision_id": "882d3c031b3f405a97e69101c017d0a7"
+        },
+        {
+          "entry_path": "skills/nature-experiment-log/SKILL.md",
+          "upstream_entry_path": "skills/nature-experiment-log/SKILL.md",
+          "skill_name": "nature-experiment-log",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文写作与润色",
+          "status": "normalized_copy",
+          "skill_id": "f1f8926b26c34e1cb510028f8257c429",
+          "revision_id": "39efae6d020c41a098bf48e88d3bb830",
+          "original_skill_id": "b44649e809bc4409b5c7dc9b46658342",
+          "original_revision_id": "c21731abd9a444709337378503e879c1",
+          "normalization_changes": [
+            "metadata 非字符串值保留为 JSON 字符串"
+          ],
+          "body_unchanged": true,
+          "resources_unchanged": true
+        },
+        {
+          "entry_path": "skills/nature-figure/SKILL.md",
+          "upstream_entry_path": "skills/nature-figure/SKILL.md",
+          "skill_name": "nature-figure",
+          "applicable_modules": [
+            "writing",
+            "analysis"
+          ],
+          "category": "科研图表与汇报",
+          "status": "imported",
+          "skill_id": "30904eaf475d4915909766e2e392d921",
+          "revision_id": "70954043d0174a7f8d313bb2fcf607f8"
+        },
+        {
+          "entry_path": "skills/nature-image2ppt/SKILL.md",
+          "upstream_entry_path": "skills/nature-image2ppt/SKILL.md",
+          "skill_name": "nature-image2ppt",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "科研图表与汇报",
+          "status": "imported",
+          "skill_id": "898b80854f0b4e3eb095de2eab4e633d",
+          "revision_id": "6cace1d1b94346a29a24aebdf503ece5"
+        },
+        {
+          "entry_path": "skills/nature-literature-pipeline/SKILL.md",
+          "upstream_entry_path": "skills/nature-literature-pipeline/SKILL.md",
+          "skill_name": "nature-literature-pipeline",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "normalized_copy",
+          "skill_id": "4e0a0a58fd0040b386954f37e8ac774c",
+          "revision_id": "cc0307106c984ace9aa039c66306497d",
+          "original_skill_id": "ad72c57da11f4dd2ad55ab3a31228167",
+          "original_revision_id": "dcc765f751e24dfcb94fa510c4a3caff",
+          "normalization_changes": [
+            "metadata 非字符串值保留为 JSON 字符串"
+          ],
+          "body_unchanged": true,
+          "resources_unchanged": true
+        },
+        {
+          "entry_path": "skills/nature-paper-card/SKILL.md",
+          "upstream_entry_path": "skills/nature-paper-card/SKILL.md",
+          "skill_name": "nature-paper-card",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "imported",
+          "skill_id": "c852a2476e6a42d58002fa4fcaae9902",
+          "revision_id": "215bc8906e3147ce81c9bc15ed4b9705"
+        },
+        {
+          "entry_path": "skills/nature-paper-to-patent/SKILL.md",
+          "upstream_entry_path": "skills/nature-paper-to-patent/SKILL.md",
+          "skill_name": "nature-paper-to-patent",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文写作与润色",
+          "status": "imported",
+          "skill_id": "577a5a17b3f84e66a5260e666ae718b6",
+          "revision_id": "6221fd4c1d094aebabc326d63c2aa0fb"
+        },
+        {
+          "entry_path": "skills/nature-paper-trans/SKILL.md",
+          "upstream_entry_path": "skills/nature-paper-trans/SKILL.md",
+          "skill_name": "nature-paper-trans",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文写作与润色",
+          "status": "imported",
+          "skill_id": "d977c1f374834715a99b14de6af89bc0",
+          "revision_id": "5ac2a381d50548569219075691314d8c"
+        },
+        {
+          "entry_path": "skills/nature-paper-xray/SKILL.md",
+          "upstream_entry_path": "skills/nature-paper-xray/SKILL.md",
+          "skill_name": "nature-paper-xray",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "imported",
+          "skill_id": "ec67c035586940bd8c0d1cf667148eff",
+          "revision_id": "4a7863645b614b17a94ceae37f1eb438"
+        },
+        {
+          "entry_path": "skills/nature-paper2ppt/SKILL.md",
+          "upstream_entry_path": "skills/nature-paper2ppt/SKILL.md",
+          "skill_name": "nature-paper2ppt",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "科研图表与汇报",
+          "status": "imported",
+          "skill_id": "817dcd4c8e19454ead92e5261642a48c",
+          "revision_id": "eba478216e7349129458fabfbf65335d"
+        },
+        {
+          "entry_path": "skills/nature-polishing/SKILL.md",
+          "upstream_entry_path": "skills/nature-polishing/SKILL.md",
+          "skill_name": "nature-polishing",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文写作与润色",
+          "status": "imported",
+          "skill_id": "012a4fc54f0c40ee9a585c9bd582bea1",
+          "revision_id": "02bbe571a03140378b6be261c6704a49"
+        },
+        {
+          "entry_path": "skills/nature-proposal-writer/SKILL.md",
+          "upstream_entry_path": "skills/nature-proposal-writer/SKILL.md",
+          "skill_name": "researchwrite",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文写作与润色",
+          "status": "normalized_copy",
+          "skill_id": "b3da69a9d0054b44b37b67bab832b568",
+          "revision_id": "82b1c9cd07bb423686cca6da985b26e5",
+          "original_skill_id": "72ca8714d5984c348fcdbdef86781e40",
+          "original_revision_id": "f76bc8c8d7a24363b132ce8f8ddec78b",
+          "normalization_changes": [
+            "技能目录调整为标准名称",
+            "metadata 非字符串值保留为 JSON 字符串"
+          ],
+          "body_unchanged": true,
+          "resources_unchanged": true
+        },
+        {
+          "entry_path": "skills/nature-reader/SKILL.md",
+          "upstream_entry_path": "skills/nature-reader/SKILL.md",
+          "skill_name": "nature-reader",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "imported",
+          "skill_id": "f14ab4a85d2143878e45ecff38a29450",
+          "revision_id": "288806d1a0254f218f962cf4bc435e80"
+        },
+        {
+          "entry_path": "skills/nature-ref-verifier/SKILL.md",
+          "upstream_entry_path": "skills/nature-ref-verifier/SKILL.md",
+          "skill_name": "nature-ref-verifier",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "引用管理与核验",
+          "status": "imported",
+          "skill_id": "5f1fd71f42f5463dbda0fa092c5cdf58",
+          "revision_id": "739939718feb4c8dbbe66df365931d55"
+        },
+        {
+          "entry_path": "skills/nature-response/SKILL.md",
+          "upstream_entry_path": "skills/nature-response/SKILL.md",
+          "skill_name": "nature-response",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文审稿与科学批判",
+          "status": "imported",
+          "skill_id": "b4b9bebfa7a94459997259476ea91d0b",
+          "revision_id": "a58386019f9b4117bb5a2588bab2adea"
+        },
+        {
+          "entry_path": "skills/nature-reviewer/SKILL.md",
+          "upstream_entry_path": "skills/nature-reviewer/SKILL.md",
+          "skill_name": "nature-reviewer",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文审稿与科学批判",
+          "status": "imported",
+          "skill_id": "d2c6e563724e4031a1eecc4c58008acb",
+          "revision_id": "60170f82c7ce4b0b97197a695623bfad"
+        },
+        {
+          "entry_path": "skills/nature-social-science/SKILL.md",
+          "upstream_entry_path": "skills/nature-social-science/SKILL.md",
+          "skill_name": "nature-social-science",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文写作与润色",
+          "status": "imported",
+          "skill_id": "7cb86f0206bd45e492077900dc132226",
+          "revision_id": "68a5aed2068047e781ff32f37cb057a3"
+        },
+        {
+          "entry_path": "skills/nature-statistics/SKILL.md",
+          "upstream_entry_path": "skills/nature-statistics/SKILL.md",
+          "skill_name": "nature-statistics",
+          "applicable_modules": [
+            "analysis"
+          ],
+          "category": "数据与统计",
+          "status": "imported",
+          "skill_id": "69ae947d4a6042879568020e66629c56",
+          "revision_id": "fa34c2d64e6b4a68a72ba72500dd2e5f"
+        },
+        {
+          "entry_path": "skills/nature-writing/SKILL.md",
+          "upstream_entry_path": "skills/nature-writing/SKILL.md",
+          "skill_name": "nature-writing",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文写作与润色",
+          "status": "imported",
+          "skill_id": "37c1f146801c46d2812b78d4d28883a4",
+          "revision_id": "cca21eb647bb4c8ca9d732c735526298"
+        }
+      ]
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "commit_sha": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "entries": [
+        {
+          "entry_path": "skills/paper-lookup/SKILL.md",
+          "upstream_entry_path": "skills/paper-lookup/SKILL.md",
+          "skill_name": "paper-lookup",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "imported",
+          "skill_id": "df84d2426b5a4f8999818744c8e16acd",
+          "revision_id": "195207c3ad4b4d71a4fc53621827b326"
+        },
+        {
+          "entry_path": "skills/statistical-analysis/SKILL.md",
+          "upstream_entry_path": "skills/statistical-analysis/SKILL.md",
+          "skill_name": "statistical-analysis",
+          "applicable_modules": [
+            "writing",
+            "analysis"
+          ],
+          "category": "结果解读与统计验证",
+          "status": "imported",
+          "skill_id": "85b84e4d2d394983a3a8050ed77d3a23",
+          "revision_id": "9a3c1c6ebcc14549820a73cd36bd18e2"
+        },
+        {
+          "entry_path": "skills/scikit-learn/SKILL.md",
+          "upstream_entry_path": "skills/scikit-learn/SKILL.md",
+          "skill_name": "scikit-learn",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "结果解读与统计验证",
+          "status": "imported",
+          "skill_id": "c91bea75974e440a93ac39e7d70ac4d5",
+          "revision_id": "e0fad05048ee4de2b1b1ad432a2cb33e"
+        },
+        {
+          "entry_path": "skills/scientific-writing/SKILL.md",
+          "upstream_entry_path": "skills/scientific-writing/SKILL.md",
+          "skill_name": "scientific-writing",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文写作与方法描述",
+          "status": "imported",
+          "skill_id": "5ed5a059559b486ca4b7e45a27d7c31b",
+          "revision_id": "f0df0eb5c4f94d6d85a84188a8936efa"
+        },
+        {
+          "entry_path": "skills/peer-review/SKILL.md",
+          "upstream_entry_path": "skills/peer-review/SKILL.md",
+          "skill_name": "peer-review",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文审稿与科学批判",
+          "status": "imported",
+          "skill_id": "6146ee5a6e214d5183dd4d0457796863",
+          "revision_id": "a5ea4398dde94a3ea9107c1c7a9f98ec"
+        },
+        {
+          "entry_path": "skills/scientific-critical-thinking/SKILL.md",
+          "upstream_entry_path": "skills/scientific-critical-thinking/SKILL.md",
+          "skill_name": "scientific-critical-thinking",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文审稿与科学批判",
+          "status": "imported",
+          "skill_id": "68465451c7054496aeaad671a4e086ee",
+          "revision_id": "095e5fb1896d4ac1a47cbbaeca48090a"
+        },
+        {
+          "entry_path": "skills/scholar-evaluation/SKILL.md",
+          "upstream_entry_path": "skills/scholar-evaluation/SKILL.md",
+          "skill_name": "scholar-evaluation",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文审稿与科学批判",
+          "status": "imported",
+          "skill_id": "46ad30c782e14b42b98090e964259b1b",
+          "revision_id": "b01e0ce335214f0b9ba5f4990fa5dd7e"
+        },
+        {
+          "entry_path": "skills/experimental-design/SKILL.md",
+          "upstream_entry_path": "skills/experimental-design/SKILL.md",
+          "skill_name": "experimental-design",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "研究设计与 Methods",
+          "status": "imported",
+          "skill_id": "7f121adf80544f3b9158f2c784d92743",
+          "revision_id": "a579a67cdae64d35b7d429aa86c1925e"
+        },
+        {
+          "entry_path": "skills/scikit-bio/SKILL.md",
+          "upstream_entry_path": "skills/scikit-bio/SKILL.md",
+          "skill_name": "scikit-bio",
+          "applicable_modules": [
+            "analysis"
+          ],
+          "category": "生信数据分析",
+          "status": "imported",
+          "skill_id": "c86d0722b0d24016a0eff87ffa864f65",
+          "revision_id": "4bbe122f68204e1e85c9924853f22502"
+        },
+        {
+          "entry_path": "skills/scientific-visualization/SKILL.md",
+          "upstream_entry_path": "skills/scientific-visualization/SKILL.md",
+          "skill_name": "scientific-visualization",
+          "applicable_modules": [
+            "analysis"
+          ],
+          "category": "科研数据绘图",
+          "status": "imported",
+          "skill_id": "bca0c9a7cd1a40339b5ca995501a8357",
+          "revision_id": "d4b851a6fd1d4df79dd6237dd14b661f"
+        }
+      ]
+    },
+    {
+      "repository": "andchamorro/PaperSkills",
+      "commit_sha": "b34fe22569ac538d2273ee6db20f2f74c7e5481b",
+      "entries": [
+        {
+          "entry_path": "skills/lit-search/SKILL.md",
+          "upstream_entry_path": "skills/lit-search/SKILL.md",
+          "skill_name": "lit-search",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "normalized_copy",
+          "skill_id": "f06a460414884fc6bba66711bff54108",
+          "revision_id": "166c6a5262b547db84698f292c772ffa",
+          "original_skill_id": "f1734c7737cc4c7ab6a1ee9a495291ff",
+          "original_revision_id": "3772bd6789104656b7b66b21e9790fce",
+          "normalization_changes": [
+            "name 改为与技能目录相符的标准标识"
+          ],
+          "body_unchanged": true,
+          "resources_unchanged": true
+        },
+        {
+          "entry_path": "skills/literature-review/SKILL.md",
+          "upstream_entry_path": "skills/literature-review/SKILL.md",
+          "skill_name": "literature-review",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "imported",
+          "skill_id": "0a3e19f991774b00b2633a8bf6c7dcbb",
+          "revision_id": "46df20560a214e6a87892d50bed9fbe8"
+        },
+        {
+          "entry_path": "skills/connected-citations/SKILL.md",
+          "upstream_entry_path": "skills/connected-citations/SKILL.md",
+          "skill_name": "connected-citations",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "imported",
+          "skill_id": "888dab101df94b56b347cd6e5ab0dd96",
+          "revision_id": "4c6df1e90a8149738eae1bcc9d07f08a"
+        },
+        {
+          "entry_path": "skills/paper-tracker/SKILL.md",
+          "upstream_entry_path": "skills/paper-tracker/SKILL.md",
+          "skill_name": "paper-tracker",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "imported",
+          "skill_id": "9c5094f8b1014b8e964ae7f5e5b0365f",
+          "revision_id": "e8ff4e2fc19a4949a82ac07c183682dd"
+        },
+        {
+          "entry_path": "skills/research-gap/SKILL.md",
+          "upstream_entry_path": "skills/research-gap/SKILL.md",
+          "skill_name": "research-gap",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "imported",
+          "skill_id": "a6894da783c44d59a681b32a8b0f552c",
+          "revision_id": "37eb844e470849a7b14bb1f2c80a5f70"
+        }
+      ]
+    },
+    {
+      "repository": "JasperPWang/lab-codex-skills",
+      "commit_sha": "560d05bdad63244b1d41efe1c6ef9419d60304fc",
+      "entries": [
+        {
+          "entry_path": "paper-deep-dive/SKILL.md",
+          "upstream_entry_path": "paper-deep-dive/SKILL.md",
+          "skill_name": "paper-deep-dive",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献精读与研究脉络",
+          "status": "imported",
+          "skill_id": "6cd27b4227d845579a9ee9c2f4e71121",
+          "revision_id": "77a27845855149be86e0bb1d54eaac42"
+        },
+        {
+          "entry_path": "paper-rag/SKILL.md",
+          "upstream_entry_path": "paper-rag/SKILL.md",
+          "skill_name": "paper-rag",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献精读与研究脉络",
+          "status": "imported",
+          "skill_id": "21840ab788f6432d94fab134e389ceb0",
+          "revision_id": "99d5fc2e634b46df8e82d60dd0fc7cb4"
+        },
+        {
+          "entry_path": "paper-spine-research/SKILL.md",
+          "upstream_entry_path": "paper-spine-research/SKILL.md",
+          "skill_name": "paper-spine-research",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献精读与研究脉络",
+          "status": "imported",
+          "skill_id": "078cddfed0e64fb79e733904d89468f3",
+          "revision_id": "9e30795d2d9e4249829f913b90a3bc4f"
+        },
+        {
+          "entry_path": "paper-card-delivery/SKILL.md",
+          "upstream_entry_path": "paper-card-delivery/SKILL.md",
+          "skill_name": "paper-card-delivery",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献精读与研究脉络",
+          "status": "imported",
+          "skill_id": "ea47b00a779843a4a066624fd29968fc",
+          "revision_id": "9ee8607654a04b3bb55a9c673e0cbf11"
+        }
+      ]
+    },
+    {
+      "repository": "beril-doe/BERIL-research-observatory",
+      "commit_sha": "e49d21a3f4e6e6c982f87fed47a179deb5240341",
+      "entries": [
+        {
+          "entry_path": ".claude/skills/literature-review/SKILL.md",
+          "upstream_entry_path": ".claude/skills/literature-review/SKILL.md",
+          "skill_name": "literature-review",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "imported",
+          "skill_id": "73ac3a094952491e95302a1e99ce8363",
+          "revision_id": "b2a63417d0c346c3893c2d4bc1881c01"
+        }
+      ]
+    },
+    {
+      "repository": "davila7/claude-code-templates",
+      "commit_sha": "f497abcc0f2d9a6f15549598323fd1322cc8feda",
+      "entries": [
+        {
+          "entry_path": "cli-tool/components/skills/scientific/literature-review/SKILL.md",
+          "upstream_entry_path": "cli-tool/components/skills/scientific/literature-review/SKILL.md",
+          "skill_name": "literature-review",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "normalized_copy",
+          "skill_id": "97a9bd667c7c4fcc8c2d6f93f1efbacf",
+          "revision_id": "fa1d3d6939c4422fbf7dccdf4ffab091",
+          "original_skill_id": "b70caf0477bf4882aeea97d4980abc1c",
+          "original_revision_id": "2423819214f94af08fae4170b2d334c6",
+          "normalization_changes": [
+            "allowed-tools 规范为字符串"
+          ],
+          "body_unchanged": true,
+          "resources_unchanged": true
+        }
+      ]
+    },
+    {
+      "repository": "marciob/skill-research-papers",
+      "commit_sha": "97131ba7007f62374cc689cf7a85fa8fead8bb2b",
+      "entries": [
+        {
+          "entry_path": "research-papers/SKILL.md",
+          "upstream_entry_path": "research-papers/SKILL.md",
+          "skill_name": "research-papers",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "文献检索与综述",
+          "status": "imported",
+          "skill_id": "9cb3518b26d94521bcfcb802f4afe3c5",
+          "revision_id": "32fa1e59eda34948b20655b3af59bedc"
+        }
+      ]
+    },
+    {
+      "repository": "zLanqing/codex-claude-academic-skills",
+      "commit_sha": "7ed6377f0efb6a38951b48ef03b19d996e454b1f",
+      "entries": [
+        {
+          "entry_path": "research-writing-skill/SKILL.md",
+          "upstream_entry_path": "research-writing-skill/SKILL.md",
+          "skill_name": "research-writing-skill",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文结构规划与学术写作",
+          "status": "imported",
+          "skill_id": "d80c9b862792428393c6f32e591637f5",
+          "revision_id": "751cbcf7e6cd4e1f8379f3cf446eac25"
+        }
+      ]
+    },
+    {
+      "repository": "LeonChaoX/qinyan-academic-skills",
+      "commit_sha": "df5a498a81e0f9c8f79d814446dcf9e9b8f68888",
+      "entries": [
+        {
+          "entry_path": "skills/沁言学术skills/qinyan-nature-writing/SKILL.md",
+          "upstream_entry_path": "skills/沁言学术skills/qinyan-nature-writing/SKILL.md",
+          "skill_name": "qinyan-nature-writing",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文结构规划与学术写作",
+          "status": "imported",
+          "skill_id": "b5011e2e31ba497b875642fa47f01a5b",
+          "revision_id": "cd70fc3ad4dc40198f296fd8ed0a8e94"
+        }
+      ]
+    },
+    {
+      "repository": "InfinityScopebio/citation-verify",
+      "commit_sha": "1f906fa05a6c3f54a51580ecc979ef87ff342a68",
+      "entries": [
+        {
+          "entry_path": "citation-verify/SKILL.md",
+          "upstream_entry_path": "SKILL.md",
+          "skill_name": "citation-verify",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "引用管理与核验",
+          "status": "imported",
+          "skill_id": "8c8143c08ba547efbc9e1c05bffe5684",
+          "revision_id": "53f7b933c9e0497ebe2d7e64c343e0fe"
+        }
+      ]
+    },
+    {
+      "repository": "color4-alt/CiteCheck",
+      "commit_sha": "fae7888bf7c1ce92bbafad15faf61cf55b7e2bd7",
+      "entries": [
+        {
+          "entry_path": "skills/citecheck/SKILL.md",
+          "upstream_entry_path": "skills/citecheck/SKILL.md",
+          "skill_name": "citecheck",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "引用管理与核验",
+          "status": "imported",
+          "skill_id": "f3aa3beed64c4cda99995f5911525d86",
+          "revision_id": "3d4740579632460fb60d65d956d5bc5b"
+        }
+      ]
+    },
+    {
+      "repository": "jkitchin/skillz",
+      "commit_sha": "b28fcf4c9f882cd890a3b59a160a2ff1b7d3e3de",
+      "entries": [
+        {
+          "entry_path": "skills/citation-verifier/SKILL.md",
+          "upstream_entry_path": "skills/citation-verifier/SKILL.md",
+          "skill_name": "citation-verifier",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "引用管理与核验",
+          "status": "normalized_copy",
+          "skill_id": "ec69719591e244e3b4a93273293170f5",
+          "revision_id": "e82434654be74b978c2e116220ec3a37",
+          "original_skill_id": "e7abc340ff6d420388bc73178d5360e7",
+          "original_revision_id": "f8ba2980411b45c78a91c6b3fa50036b",
+          "normalization_changes": [
+            "allowed-tools 规范为字符串"
+          ],
+          "body_unchanged": true,
+          "resources_unchanged": true
+        }
+      ]
+    },
+    {
+      "repository": "Boom5426/Nature-Paper-Skills",
+      "commit_sha": "6f8eaa07b4ea19fecdc73618cad9a65beb49d542",
+      "entries": [
+        {
+          "entry_path": "skills/core/citation-verifier/SKILL.md",
+          "upstream_entry_path": "skills/core/citation-verifier/SKILL.md",
+          "skill_name": "citation-verifier",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "引用管理与核验",
+          "status": "imported",
+          "skill_id": "0e8c4ce6af6343909757af0a48e557c6",
+          "revision_id": "c338e5dcd89e49fbb5fb51b8b6e24793"
+        }
+      ]
+    },
+    {
+      "repository": "boheling/deltasci",
+      "commit_sha": "5b36015ead6934a67622b1777f11ce59dfe36a68",
+      "entries": [
+        {
+          "entry_path": "skill/SKILL.md",
+          "upstream_entry_path": "skill/SKILL.md",
+          "skill_name": "deltasci",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "引用管理与核验",
+          "status": "normalized_copy",
+          "skill_id": "6e61f813a44e4a308c9d11e457e1c56a",
+          "revision_id": "bcc031f7dc1d4788970ea7a80e956401",
+          "original_skill_id": "2fdbe89561ae4db29285526da1895066",
+          "original_revision_id": "d490017548894f6f82ac83e7d6ef5191",
+          "normalization_changes": [
+            "技能目录调整为标准名称"
+          ],
+          "body_unchanged": true,
+          "resources_unchanged": true
+        }
+      ]
+    },
+    {
+      "repository": "jonckr/cite-verify",
+      "commit_sha": "24899f1f861071df780ee3c543fcf5cc82cf54a3",
+      "entries": [
+        {
+          "entry_path": "cite-verify/SKILL.md",
+          "upstream_entry_path": "SKILL.md",
+          "skill_name": "cite-verify",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "引用管理与核验",
+          "status": "imported",
+          "skill_id": "1f0727e18d254c9faf148b0867a1c9ee",
+          "revision_id": "8b2aad38e9344f15a217f51e3d913f52"
+        }
+      ]
+    },
+    {
+      "repository": "jam-cc/paper-review.skill",
+      "commit_sha": "bb9900ff7a95e6a28092ab0a9e1d81098f41634e",
+      "entries": [
+        {
+          "entry_path": "paper-review/SKILL.md",
+          "upstream_entry_path": "SKILL.md",
+          "skill_name": "paper-review",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文审稿与科学批判",
+          "status": "imported",
+          "skill_id": "215d23f04c3f4be08cfdd584418d89f4",
+          "revision_id": "8477453548444d499ffc919985b3cf1f"
+        }
+      ]
+    },
+    {
+      "repository": "chunhualiao/paper-review-skill",
+      "commit_sha": "dca0eef79e44ec64861196b22dca77fc49738b6d",
+      "entries": [
+        {
+          "entry_path": "skills/research-paper-review/SKILL.md",
+          "upstream_entry_path": "skills/research-paper-review/SKILL.md",
+          "skill_name": "research-paper-review",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "论文审稿与科学批判",
+          "status": "imported",
+          "skill_id": "9ce9509bb37440b09398a910729c03f0",
+          "revision_id": "b79a871a9ee8436db0c50779bcf3ea88"
+        }
+      ]
+    },
+    {
+      "repository": "openai/plugins",
+      "commit_sha": "0722921d5542fc593105c27bd52630babd8b8c2a",
+      "entries": [
+        {
+          "entry_path": "plugins/ngs-analysis/skills/ngs-amplicon-microbiome/SKILL.md",
+          "upstream_entry_path": "plugins/ngs-analysis/skills/ngs-amplicon-microbiome/SKILL.md",
+          "skill_name": "ngs-amplicon-microbiome",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "Methods 与生信流程",
+          "status": "imported",
+          "skill_id": "12eefed232aa422f8eb3bead5b88776d",
+          "revision_id": "466c5f2990e5453aa19aa1b8662073b5"
+        },
+        {
+          "entry_path": "plugins/ngs-analysis/skills/ngs-shotgun-metagenomics/SKILL.md",
+          "upstream_entry_path": "plugins/ngs-analysis/skills/ngs-shotgun-metagenomics/SKILL.md",
+          "skill_name": "ngs-shotgun-metagenomics",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "Methods 与生信流程",
+          "status": "imported",
+          "skill_id": "150a6e1dbb584068889bfbdfe73fecc7",
+          "revision_id": "16fb58e5fa1543758f6e46bbaf2bc140"
+        }
+      ]
+    },
+    {
+      "repository": "mims-harvard/ToolUniverse",
+      "commit_sha": "29910718168579f4d85f9b81688f6caad1c2c607",
+      "entries": [
+        {
+          "entry_path": "skills/tooluniverse-multi-omics-integration/SKILL.md",
+          "upstream_entry_path": "skills/tooluniverse-multi-omics-integration/SKILL.md",
+          "skill_name": "tooluniverse-multi-omics-integration",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "Methods 与生信流程",
+          "status": "imported",
+          "skill_id": "006137c5330642b7ba7ae0d7b2ddeaa0",
+          "revision_id": "6b3430422233403fbdc73d947275a2de"
+        }
+      ]
+    },
+    {
+      "repository": "nolainjin/paper-verify",
+      "commit_sha": "bea4dc9180a9b24829ff8d636595ca54ccc35097",
+      "entries": [
+        {
+          "entry_path": "integrations/skills/paper-verify/SKILL.md",
+          "upstream_entry_path": "integrations/skills/paper-verify/SKILL.md",
+          "skill_name": "paper-verify",
+          "applicable_modules": [
+            "writing"
+          ],
+          "category": "引用管理与核验",
+          "status": "imported",
+          "skill_id": "ddc0b979392b421f8f306dd4bf5af935",
+          "revision_id": "e9edbd085df5474ea6388075020f8388"
+        }
+      ]
+    },
+    {
+      "repository": "GPTomics/bioSkills",
+      "commit_sha": "d91ed3d563019e649dc854c56ccd62551359488a",
+      "entries": [
+        {
+          "entry_path": "metagenomics/metagenome-visualization/SKILL.md",
+          "upstream_entry_path": "metagenomics/metagenome-visualization/SKILL.md",
+          "skill_name": "bio-metagenomics-visualization",
+          "applicable_modules": [
+            "analysis"
+          ],
+          "category": "宏基因组可视化",
+          "status": "normalized_copy",
+          "skill_id": "d16901150d0b4d1f8996099a0e926ac5",
+          "revision_id": "344a4616dae64b76bffaee3f9f3dee41",
+          "original_skill_id": "57a5b96480ed46af8965e399dbc4e4e8",
+          "original_revision_id": "923bf99fa60b466cb313dfdede2d8178",
+          "normalization_changes": [
+            "技能目录调整为标准名称"
+          ],
+          "body_unchanged": true,
+          "resources_unchanged": true
+        }
+      ]
+    },
+    {
+      "repository": "jihe520/sci-box",
+      "commit_sha": "9687d2a52037e92bf68a781b9b1e061ca03c8125",
+      "entries": [
+        {
+          "entry_path": "skills/scibox-diagram/SKILL.md",
+          "upstream_entry_path": "skills/scibox-diagram/SKILL.md",
+          "skill_name": "scibox-diagram",
+          "applicable_modules": [
+            "analysis"
+          ],
+          "category": "科研图表与示意图",
+          "status": "imported",
+          "skill_id": "7b1cff3cd7cb4338bd9467989a812eb6",
+          "revision_id": "8e2f1298fa62486583a6830e172affdd"
+        },
+        {
+          "entry_path": "skills/scibox-figure/SKILL.md",
+          "upstream_entry_path": "skills/scibox-figure/SKILL.md",
+          "skill_name": "mathmodel-figure-templates",
+          "applicable_modules": [
+            "analysis"
+          ],
+          "category": "科研图表与示意图",
+          "status": "normalized_copy",
+          "skill_id": "e9f6be3922ad4ce48666b56ce2f7a107",
+          "revision_id": "b1ad41e77fc542a2a754304bd2b3e06f",
+          "original_skill_id": "b7e47a2d240345d3b345f9e21084151d",
+          "original_revision_id": "30e24885ef1d4e8a91bd71ea1f162e89",
+          "normalization_changes": [
+            "技能目录调整为标准名称"
+          ],
+          "body_unchanged": true,
+          "resources_unchanged": true
+        }
+      ]
+    },
+    {
+      "repository": "LigphiDonk/academic-figure-generator",
+      "commit_sha": "0a2bec6bb56d6b47143a81909f8d818716bdcbab",
+      "entries": [
+        {
+          "entry_path": "academic-figure-prompt-pastel/SKILL.md",
+          "upstream_entry_path": "academic-figure-prompt-pastel/SKILL.md",
+          "skill_name": "Academic Figure Prompt — Modern ML Airy Style",
+          "applicable_modules": [
+            "analysis"
+          ],
+          "category": "论文配图提示词",
+          "status": "normalized_copy",
+          "skill_id": "fef9c81810ad4800a1e770b742dc3dcf",
+          "revision_id": "32f32e3a30404daf9f99d41c07ac8702",
+          "original_skill_id": "e5879553aa5c4dc08680f7eeb1d8749c",
+          "original_revision_id": "f177eaaae4784e469294f3552d20be79",
+          "normalization_changes": [
+            "name 改为与技能目录相符的标准标识"
+          ],
+          "body_unchanged": true,
+          "resources_unchanged": true
+        },
+        {
+          "entry_path": "academic-figure-prompt/SKILL.md",
+          "upstream_entry_path": "academic-figure-prompt/SKILL.md",
+          "skill_name": "Academic Figure Prompt",
+          "applicable_modules": [
+            "analysis"
+          ],
+          "category": "论文配图提示词",
+          "status": "normalized_copy",
+          "skill_id": "94b26c03c2fe46f795ed48e9d89234a6",
+          "revision_id": "a643cfd465bb43cfa741aecef1bdf503",
+          "original_skill_id": "b9e41c4b34ad4b6ebcfb92bbd720f74a",
+          "original_revision_id": "142cb43fe1334d91a5cb62e9976a9f25",
+          "normalization_changes": [
+            "name 改为与技能目录相符的标准标识"
+          ],
+          "body_unchanged": true,
+          "resources_unchanged": true
+        }
+      ]
+    }
+  ],
+  "external_tools": [
+    {
+      "repository": "jannisborn/paperscraper",
+      "reason": "当前固定提交没有独立 SKILL.md；保留为外部工具候选，不编造技能包"
+    },
+    {
+      "repository": "kaago/openpapers-mcp",
+      "reason": "当前固定提交没有独立 SKILL.md；保留为外部工具候选，不编造技能包"
+    },
+    {
+      "repository": "alisoroushmd/academic-research-mcp",
+      "reason": "当前固定提交没有独立 SKILL.md；保留为外部工具候选，不编造技能包"
+    },
+    {
+      "repository": "leejaywon/MAC-n-CHEESE",
+      "reason": "当前固定提交没有独立 SKILL.md；保留为外部工具候选，不编造技能包"
+    },
+    {
+      "repository": "xmoezzz/fixbib",
+      "reason": "当前固定提交没有独立 SKILL.md；保留为外部工具候选，不编造技能包"
+    },
+    {
+      "repository": "BryanTegomoh/citation-audit",
+      "reason": "当前固定提交没有独立 SKILL.md；保留为外部工具候选，不编造技能包"
+    }
+  ]
+}
